@@ -4,8 +4,7 @@
 
 /* 
     Author: Basan
-    Date: 	2021-10-02
-
+    Date: 2021-10-02
 */
 
 class encoderListener{
@@ -19,7 +18,6 @@ class encoderListener{
 
     void driveCallback(const std_msgs::String &data);
     void rkCallback(const std_msgs::String &data);
-
 public:
     encoderListener();
 };
